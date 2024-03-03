@@ -1,9 +1,10 @@
-# Astro Starter Kit: Basics
+# GimnasioAstreus: Website Practice
 
 ```sh
 npm run dev 
 ```
-> 🧑‍🚀 **Seasoned astronaut?** Pages Website!
+ ## 🚀 View Pages Website
+ 
 ![Texto alternativo](https://i.postimg.cc/VkQK7mwP/pag1.png)
 ![Texto alternativo](https://i.postimg.cc/8P9z9XXS/pag2.png)
 ![Texto alternativo](https://i.postimg.cc/TPRM4rxx/pg3.png)
