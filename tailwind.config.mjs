@@ -6,8 +6,9 @@ export default {
 		extend: {
 			colors:{
 				'primary':'#F9EF23',
-				
-				
+			  },
+			  height:{
+				'mxScreem':'85vh',
 			  },
 		},
 	},
