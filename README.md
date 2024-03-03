@@ -3,7 +3,7 @@
 ```sh
 npm run dev 
 ```
-![Texto alternativo](https://ibb.co/6rWV8Pd)
+![Texto alternativo](https://i.postimg.cc/VkQK7mwP/pag1.png)
 ![Texto alternativo](https://url/de/la/imagen.png)
 ![Texto alternativo](https://url/de/la/imagen.png)
 ![Texto alternativo](https://url/de/la/imagen.png)
