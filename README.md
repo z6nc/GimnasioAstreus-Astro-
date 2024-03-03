@@ -3,7 +3,7 @@
 ```sh
 npm run dev 
 ```
-## Tecnologías Utilizadas
+## 🧞 Technologies used
 
 - [Astro](https://astro.build/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -16,15 +16,6 @@ npm run dev
 ![Texto alternativo](https://i.postimg.cc/6673cNz0/pg4.png)
 ![Texto alternativo](https://i.postimg.cc/MTgzNvtY/pg5.png)
 
-
-
-## 🧞 Technologies used
-
-
-| Technologies              | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `Astro`                   |                                                  |
-| `Talwind`                 |                                                  |
 
 
 ## 👀 Want to learn more?
