@@ -3,6 +3,7 @@
 ```sh
 npm run dev 
 ```
+> 🧑‍🚀 **Seasoned astronaut?** Pages Website!
 ![Texto alternativo](https://i.postimg.cc/VkQK7mwP/pag1.png)
 ![Texto alternativo](https://i.postimg.cc/8P9z9XXS/pag2.png)
 ![Texto alternativo](https://i.postimg.cc/TPRM4rxx/pg3.png)
@@ -12,9 +13,7 @@ npm run dev
 
 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
 ## 🚀 Project Structure
 
