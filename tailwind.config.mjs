@@ -11,8 +11,6 @@ export default {
 				'mxScreem':'85vh',
 				'2/8':'45%',
 				'97':'26rem',
-
-
 			  },
 		},
 	},
