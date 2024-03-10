@@ -9,6 +9,7 @@ export default {
 			  },
 			  height:{
 				'mxScreem':'85vh',
+				'midScreem':'70vh',
 				'2/8':'45%',
 				'97':'26rem',
 			  },
