@@ -1,5 +1,7 @@
 ---
 const A_Style = "hover:underline hover:scale-110 transition ";
+const A_StyleResponsive = "hover:underline hover:scale-110 transition text-white font-black my-5  text-5xl";
+
 ---
 
 <nav class="bg-primary p-4 flex  items-center justify-between w-full ">
@@ -10,16 +12,35 @@ const A_Style = "hover:underline hover:scale-110 transition ";
     <a class={A_Style}>Planes</a>
    <button class="bg-white p-2 hover:shadow-2xl hover:scale-110 transition font-black rounded"><a href="">Unete Ahora</a></button> 
   </div>
-  <button class="lg:hidden  flex" >
+  <button  class=" boton lg:hidden  flex"  >
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-deep" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6h16" /><path d="M7 12h13" /><path d="M10 18h10" /></svg>
    </button>
 </nav>
 
-<nav class="absolute h-screen z-50  bg-white">
-    <div class=" hidden lg:w-1/5 lg:flex lg:justify-between lg:items-center   ">
-        <a class={A_Style} href="">Home</a>
-        <a class={A_Style} href="">About</a>
-        <a class={A_Style}>Planes</a>
-       <button class="bg-white p-2 hover:shadow-2xl hover:scale-110 transition font-black rounded"><a href="">Unete Ahora</a></button> 
+<nav class="GaleryZoom fixed top-0 left-0 backdrop-blur-md bg-black/30 h-full hidden  w-full z-50 ">
+    <span class="absolute top-0 right-3 text-5xl font-bold text-white  z-50 hover:text-red-900">X</span>
+    <div class=" flex flex-col justify-center items-center h-screen  w-auto  ">
+        <a class={A_StyleResponsive} href="">Home</a>
+        <a class={A_StyleResponsive} href="">About</a>
+        <a class={A_StyleResponsive}>Planes</a>
+       <button class="bg-primary px-11 py-7 my-3  text-5xl hover:shadow-2xl text-red-600 hover:scale-110 transition font-black rounded-lg"><a href="">UNETE AHORA</a></button> 
       </div>
 </nav>
+<script>
+  // Selecciona todos los botones y asigna el evento onclick a cada uno
+const botones = document.querySelectorAll(".boton");
+botones.forEach(boton => {
+  boton.onclick = () => {
+    document.querySelector(".GaleryZoom").style.display = "flex";
+  };
+});
+
+// Selecciona el elemento para cerrar la galería y asigna el evento onclick
+const Exit = document.querySelector(".GaleryZoom span");
+Exit.onclick = () => {
+  document.querySelector(".GaleryZoom").style.display = "none";
+};
+
+</script>
+
+
