@@ -1,0 +1,25 @@
+---
+const A_Style = "hover:underline hover:scale-110 transition ";
+---
+
+<nav class="bg-primary p-4 flex  items-center justify-between w-full ">
+  <h1 class=" text-xl font-black hover:scale-105 transition"><a href="">Gimnasio Astreus</a></h1>
+  <div class=" hidden lg:w-1/5 lg:flex lg:justify-between lg:items-center   ">
+    <a class={A_Style} href="">Home</a>
+    <a class={A_Style} href="">About</a>
+    <a class={A_Style}>Planes</a>
+   <button class="bg-white p-2 hover:shadow-2xl hover:scale-110 transition font-black rounded"><a href="">Unete Ahora</a></button> 
+  </div>
+  <button class="lg:hidden  flex" >
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-deep" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6h16" /><path d="M7 12h13" /><path d="M10 18h10" /></svg>
+   </button>
+</nav>
+
+<nav class="absolute h-screen z-50  bg-white">
+    <div class=" hidden lg:w-1/5 lg:flex lg:justify-between lg:items-center   ">
+        <a class={A_Style} href="">Home</a>
+        <a class={A_Style} href="">About</a>
+        <a class={A_Style}>Planes</a>
+       <button class="bg-white p-2 hover:shadow-2xl hover:scale-110 transition font-black rounded"><a href="">Unete Ahora</a></button> 
+      </div>
+</nav>
