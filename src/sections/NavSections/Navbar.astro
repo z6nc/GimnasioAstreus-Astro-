@@ -36,9 +36,11 @@ botones.forEach(boton => {
 });
 
 const Exit = document.querySelector(".GaleryZoom span");
-Exit.addEventListener('click', () => {
-  (document.querySelector(".GaleryZoom") as HTMLElement).style.display = "none";
-});
+if (Exit) {
+  Exit.addEventListener('click', () => {
+    (document.querySelector(".GaleryZoom") as HTMLElement).style.display = "none";
+  });
+}
 
 
 </script>
